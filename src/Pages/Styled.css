@@ -1,0 +1,155 @@
+/*Home*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width: 94vw;
+    background-image: url("../img/logoda-onu.jpg");
+    background-repeat: no-repeat;
+    background-position: top 30vh left 60vw;
+    background-size: 500px;
+}
+h1{
+    position: relative;
+    width: 65vw;
+    top: 2vh;
+    left: 6vw;
+    font-size: 38px;
+}
+p{
+    position: relative;
+    width: 55vw;
+    top: 5vh;
+    left: 6vw;
+}
+a:link{
+    text-decoration: none;
+}
+section{
+    position: relative;
+    display: flex;
+    width: 45%;
+    top: 8vh;
+    left: 6vw;
+    justify-content: space-between;
+}
+section h3{
+    font-size: 35px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+section h4{
+    margin-top: 2vh;
+}
+.sec{
+    display: flex;
+    width: 11rem;
+    height: 11rem;
+    color: white;
+    background-color: rgb(1, 1, 133);
+    background-image: url("../img/martelo.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 10vw;
+}
+.nat{
+    display: flex;
+    width: 11rem;
+    height: 11rem;
+    color: white;
+    background-color: green;
+    background-image: url("../img/arvore.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 10vw;
+}
+.bus{
+    display: flex;
+    width: 11rem;
+    height: 11rem;
+    color: white;
+    background-color: orangered;
+    background-image: url("../img/busao.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 13vw;
+}
+
+/*Box Security,Nature,Transport*/
+.mother-blue{
+    position: relative;
+    top: 2vh;
+    left: 6vw;
+    width: 75rem;
+    height: 20rem;
+    color: white;
+    background-color: rgb(1, 1, 133);
+    background-image: url("../img/martelo.png");
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-size: 25vw;
+}
+.mother-nature{
+    position: relative;
+    top: 2vh;
+    left: 6vw;
+    width: 75rem;
+    height: 20rem;
+    color: white;
+    background-color:green;
+    background-image: url("../img/arvore.png");
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-size: 25vw;
+}
+.mother-bus{
+    position: relative;
+    top: 2vh;
+    left: 6vw;
+    width: 75rem;
+    height: 20rem;
+    color: white;
+    background-color:orangered;
+    background-image: url("../img/busao.png");
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-position-y: bottom;
+    background-size: 30vw;
+}
+.son-box{
+    position: relative;
+    width: 100%;
+    top: 5vh;
+    left: 2vw;
+    height: 35vh;
+}
+.number{
+    position: relative;
+    left: -0.1vw;
+    font-size: 55px;
+}
+.article{
+    position: relative;
+}
+.sub{
+    position: relative;
+    top: 2vh;
+    font-size: 35px;
+}
+.descr{
+    position: relative;
+    top: 3vh;
+    width: 47%;
+}
+.intro{
+    position: relative;
+    width: 50%;
+    top: 5vh;
+    left: 6vw;
+}
