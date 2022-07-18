@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Styled.css";
 
 
@@ -22,6 +23,11 @@ render(){
         <p className="intro">
         <strong>Objetivo 3: Melhorar a qualidade da viagem do passageiro e aumentar a frota de linhas de onibûs para evitar superlotação nos transportes publicos</strong>
         </p>
+        <p className="intro"><strong>3.1</strong>Até 2023, mais investimento em ônibus, para a população nos horários de pico.</p>
+        <p className="intro"><strong>3.2</strong>Até 2023, e investimento para novas linhas de ônibus</p>
+        <Link to="/">
+          <button>Voltar</button>
+          </Link>
         </body>
     )
 }

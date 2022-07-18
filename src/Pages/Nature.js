@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Styled.css";
 
 
@@ -28,6 +29,11 @@ render(){
             desertificação, travar e reverter a degradação dos solos e travar a
             perda da biodiversidade</strong>
         </p>
+        <p className="intro"><strong>2.1</strong>Até 2022, aplicar multas para quem joga lixo na rua</p>
+        <p className="intro"><strong>2.1</strong>Até 2022, posicionar em pontos estratégicos, latas de lixo</p>
+        <Link to="/">
+          <button>Voltar</button>
+          </Link>
         </body>
     )
 }

@@ -7,10 +7,10 @@
 }
 body{
     width: 94vw;
-    background-image: url("../img/logoda-onu.jpg");
+    height: 100vh;
+    background-image: url("../img/fundo.jpg");
     background-repeat: no-repeat;
-    background-position: top 30vh left 60vw;
-    background-size: 500px;
+    background-size: 100vw;
 }
 h1{
     position: relative;
@@ -64,9 +64,8 @@ section h4{
     background-color: green;
     background-image: url("../img/arvore.png");
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: bottom;
-    background-size: 10vw;
+    background-position: left 1vw bottom 1vh;
+    background-size: 16vw;
 }
 .bus{
     display: flex;
@@ -78,10 +77,10 @@ section h4{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: bottom;
-    background-size: 13vw;
+    background-size: 11vw;
 }
 
-/*Box Security,Nature,Transport*/
+/*Security,Nature,Transport*/
 .mother-blue{
     position: relative;
     top: 2vh;
@@ -105,8 +104,8 @@ section h4{
     background-color:green;
     background-image: url("../img/arvore.png");
     background-repeat: no-repeat;
-    background-position-x:right;
-    background-size: 25vw;
+    background-position: left 56vw bottom 1vh;
+    background-size: 45vw;
 }
 .mother-bus{
     position: relative;
@@ -120,7 +119,7 @@ section h4{
     background-repeat: no-repeat;
     background-position-x:right;
     background-position-y: bottom;
-    background-size: 30vw;
+    background-size: 25vw;
 }
 .son-box{
     position: relative;
@@ -152,4 +151,21 @@ section h4{
     width: 50%;
     top: 5vh;
     left: 6vw;
+    margin-bottom: 2vh;
+    font-weight: bolder;
+}
+button{
+    position: relative;
+    width: 7.5vw;
+    top: 10vh;
+    left: 15vw;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+    border: solid 2px black;
 }
