@@ -10,7 +10,6 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-        <GlobalStyle />
         <Routes>
           <Route path = '/' element={<Home/>}/>
           <Route path ='/Security' element={<Security />}/>
